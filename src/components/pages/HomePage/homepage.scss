@@ -1,0 +1,32 @@
+.home_container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: url(https://source.unsplash.com/random?nature/1366%C3%97768) 50% /
+    cover no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  font-family: "Merriweather", serif;
+  gap: 2rem;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    input {
+      display: flex;
+      height: 2rem;
+      font-size: 1.5rem;
+      border: none;
+      outline: none;
+      border-radius: 0.5rem;
+      background: rgba($color: #000000, $alpha: 0.5);
+    }
+    .weather {
+      width: 200px;
+      height: 200px;
+      background-color: aqua;
+    }
+  }
+}
